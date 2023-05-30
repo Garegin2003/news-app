@@ -1,0 +1,18 @@
+.news_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+.news_list .news {
+  color: rgb(57, 177, 247);
+}
+.news_list h2 {
+  text-align: center;
+}
+.news_list .news_lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}/*# sourceMappingURL=NewsList.module.css.map */

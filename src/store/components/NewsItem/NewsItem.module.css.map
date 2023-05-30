@@ -1,0 +1,1 @@
+{"version":3,"sources":["NewsItem.module.scss","NewsItem.module.css"],"names":[],"mappings":"AAAA;EACI,mCAAA;EACA,aAAA;EACA,mBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,8BAAA;EACA,YAAA;EACA,mBAAA;EACA,cAAA;ACCJ;ADCI;EACI,yBAAA;EACA,yBAAA;EACA,kBAAA;EACA,YAAA;EACA,mBAAA;EACA,eAAA;EACA,kBAAA;ACCR;ADEI;EACI,iBAAA;ACAR;ADGI;EACI,eAAA;ACDR","file":"NewsItem.module.css"}

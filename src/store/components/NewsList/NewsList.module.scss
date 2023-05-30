@@ -1,0 +1,22 @@
+.news_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+    .news {
+        color: rgb(57, 177, 247);
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+    .news_lists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}

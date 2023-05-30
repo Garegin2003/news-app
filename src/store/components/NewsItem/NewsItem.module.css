@@ -1,0 +1,27 @@
+.news_item {
+  background-color: rgb(57, 177, 247);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.news_item button {
+  background-color: #4848db;
+  color: rgb(245, 251, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.news_item .news_title {
+  font-weight: bold;
+}
+.news_item .news_description {
+  margin-top: 5px;
+}/*# sourceMappingURL=NewsItem.module.css.map */

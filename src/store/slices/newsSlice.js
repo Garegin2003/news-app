@@ -15,7 +15,18 @@ const newsSlice = createSlice({
     },
     [fetchNews.fulfilled]: (state, action) => {
       console.log('Fulfilled', action.payload);
-      return action.payload || [];
+      const news = action.payload.map((e) => ({
+        id: Math.random().toString(),
+        author: e.author,
+        content: e.content,
+        description: e.description,
+        publishedAt: e.publishedAt,
+        source: e.source,
+        title: e.title,
+        url: e.url,
+        urlToImage: e.urlToImage,
+      }));
+      return news || [];
     },
     [fetchNews.rejected]: () => {
       console.log('Rejected');

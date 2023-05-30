@@ -5,7 +5,7 @@ import { favoritesReducer } from './slices/favoritesSlice';
 const store = configureStore({
   reducer: {
     news: newsReducer,
-    favorites: favoritesReducer
+    favorites: favoritesReducer,
   },
 });
 
